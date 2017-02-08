@@ -38,7 +38,7 @@ var view = {
 				break;
 		case 'CE':
 				msg = [];
-				messageArea.value = "0";
+				messageArea.value = this.prev_msg;
 				break;
 					
 		case '+': /*falling through*/
